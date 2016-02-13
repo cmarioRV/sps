@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DA006A2B-5C51-4845-A1A6-E44E1D54DF8C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SPSWorkspace</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>822214bb-dcf7-4c8d-a767-17ae0fb20d88++2042</key>
+		<string>http://worldwind31.arc.nasa.gov/svn/trunk/WorldWindIOS</string>
+		<key>8C78948C2AE58CD5EB7AB7C4EAB60AE22CE21F52</key>
+		<string>https://github.com/cmarioRV/sps.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SPSWorkspace.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>822214bb-dcf7-4c8d-a767-17ae0fb20d88++2042</key>
+		<string>..WorldWindIOS</string>
+		<key>8C78948C2AE58CD5EB7AB7C4EAB60AE22CE21F52</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>822214bb-dcf7-4c8d-a767-17ae0fb20d88++2042</key>
+		<string>http://worldwind31.arc.nasa.gov/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cmarioRV/sps.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8C78948C2AE58CD5EB7AB7C4EAB60AE22CE21F52</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8C78948C2AE58CD5EB7AB7C4EAB60AE22CE21F52</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sps</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>822214bb-dcf7-4c8d-a767-17ae0fb20d88++2042</string>
+			<key>IDESourceControlWCCName</key>
+			<string>spsWorldWindIOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

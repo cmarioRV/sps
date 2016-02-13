@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Posición actual</key>
+	<string></string>
+	<key>Emergencia</key>
+	<string></string>
+	<key>Rumbo</key>
+	<string></string>
+	<key>Altitud</key>
+	<string></string>
+	<key>Repetir comunicación</key>
+	<string></string>
+	<key>Alfa</key>
+	<string></string>
+	<key>Bravo</key>
+	<string></string>
+	<key>Charlie</key>
+	<string></string>
+	<key>Delta</key>
+	<string></string>
+	<key>Eco</key>
+	<string></string>
+	<key>Foxtrot</key>
+	<string></string>
+</dict>
+</plist>

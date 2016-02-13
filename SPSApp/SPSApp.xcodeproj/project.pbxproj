@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C52AF781C5301AB00AE5367 /* DataReceivedPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C52AF771C5301AB00AE5367 /* DataReceivedPacket.m */; };
+		4C696BBF1C692F55008CD317 /* BaterryStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C696BBD1C692F55008CD317 /* BaterryStatusViewController.m */; };
+		4C696BC01C692F55008CD317 /* BaterryStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C696BBE1C692F55008CD317 /* BaterryStatusViewController.xib */; };
+		4CBC44651B973FED00F1EEFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC44641B973FED00F1EEFE /* main.m */; };
+		4CBC44681B973FED00F1EEFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC44671B973FED00F1EEFE /* AppDelegate.m */; };
+		4CBC446B1B973FED00F1EEFE /* SPSApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC44691B973FED00F1EEFE /* SPSApp.xcdatamodeld */; };
+		4CBC44711B973FED00F1EEFE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC44701B973FED00F1EEFE /* DetailViewController.m */; };
+		4CBC44741B973FED00F1EEFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBC44721B973FED00F1EEFE /* Main.storyboard */; };
+		4CBC44761B973FED00F1EEFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CBC44751B973FED00F1EEFE /* Images.xcassets */; };
+		4CBC44791B973FED00F1EEFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CBC44771B973FED00F1EEFE /* LaunchScreen.xib */; };
+		4CBC44851B973FED00F1EEFE /* SPSAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC44841B973FED00F1EEFE /* SPSAppTests.m */; };
+		4CBC44911B9740AE00F1EEFE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBC44901B9740AE00F1EEFE /* SystemConfiguration.framework */; };
+		4CBC44931B9740BD00F1EEFE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBC44921B9740BD00F1EEFE /* CoreLocation.framework */; };
+		4CBC44951B9740C500F1EEFE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBC44941B9740C500F1EEFE /* QuartzCore.framework */; };
+		4CBC44971B9740CF00F1EEFE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBC44961B9740CF00F1EEFE /* OpenGLES.framework */; };
+		4CBC449A1B974A7300F1EEFE /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC44991B974A7300F1EEFE /* Settings.m */; };
+		4CBC44A11B97780D00F1EEFE /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC44A01B97780D00F1EEFE /* MasterViewController.m */; };
+		4CBC44A31B97822600F1EEFE /* CustomMessages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CBC44A21B97822600F1EEFE /* CustomMessages.plist */; };
+		4CBC44A91B988FF400F1EEFE /* MessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC44A81B988FF400F1EEFE /* MessageTableViewController.m */; };
+		4CBC44AB1B98B49A00F1EEFE /* Monaco.dfont in Resources */ = {isa = PBXBuildFile; fileRef = 4CBC44AA1B98B49A00F1EEFE /* Monaco.dfont */; };
+		4CBC44AD1B99243B00F1EEFE /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBC44AC1B99243B00F1EEFE /* CoreBluetooth.framework */; };
+		4CBC44B01B99292E00F1EEFE /* BluetoothController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC44AF1B99292E00F1EEFE /* BluetoothController.m */; };
+		D206C9921BB5C386001F0A53 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D206C9901BB5C386001F0A53 /* Icon.png */; };
+		D206C9931BB5C386001F0A53 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D206C9911BB5C386001F0A53 /* Icon@2x.png */; };
+		D29CDD061C6D0E9700C727E3 /* libWorldWind.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D29CDD041C6D0E2100C727E3 /* libWorldWind.a */; };
+		D2F2EDD51C4FEA66008A92E2 /* BTDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F2EDD21C4FEA66008A92E2 /* BTDiscovery.m */; };
+		D2F2EDD61C4FEA66008A92E2 /* BTService.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F2EDD41C4FEA66008A92E2 /* BTService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CBC447F1B973FED00F1EEFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CBC44571B973FED00F1EEFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CBC445E1B973FED00F1EEFE;
+			remoteInfo = SPSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C52AF761C5301AB00AE5367 /* DataReceivedPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataReceivedPacket.h; sourceTree = "<group>"; };
+		4C52AF771C5301AB00AE5367 /* DataReceivedPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataReceivedPacket.m; sourceTree = "<group>"; };
+		4C696BBC1C692F55008CD317 /* BaterryStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaterryStatusViewController.h; sourceTree = "<group>"; };
+		4C696BBD1C692F55008CD317 /* BaterryStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaterryStatusViewController.m; sourceTree = "<group>"; };
+		4C696BBE1C692F55008CD317 /* BaterryStatusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BaterryStatusViewController.xib; path = ../BaterryStatusViewController.xib; sourceTree = "<group>"; };
+		4CBC445F1B973FED00F1EEFE /* SPSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBC44631B973FED00F1EEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBC44641B973FED00F1EEFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CBC44661B973FED00F1EEFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CBC44671B973FED00F1EEFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CBC446A1B973FED00F1EEFE /* SPSApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SPSApp.xcdatamodel; sourceTree = "<group>"; };
+		4CBC446F1B973FED00F1EEFE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = SPSApp/DetailViewController.h; sourceTree = "<group>"; };
+		4CBC44701B973FED00F1EEFE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = SPSApp/DetailViewController.m; sourceTree = "<group>"; };
+		4CBC44731B973FED00F1EEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CBC44751B973FED00F1EEFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CBC44781B973FED00F1EEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4CBC447E1B973FED00F1EEFE /* SPSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBC44831B973FED00F1EEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBC44841B973FED00F1EEFE /* SPSAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPSAppTests.m; sourceTree = "<group>"; };
+		4CBC44901B9740AE00F1EEFE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4CBC44921B9740BD00F1EEFE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4CBC44941B9740C500F1EEFE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4CBC44961B9740CF00F1EEFE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4CBC44981B974A7300F1EEFE /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		4CBC44991B974A7300F1EEFE /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		4CBC449E1B974B4300F1EEFE /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		4CBC449F1B97780D00F1EEFE /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		4CBC44A01B97780D00F1EEFE /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		4CBC44A21B97822600F1EEFE /* CustomMessages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CustomMessages.plist; sourceTree = "<group>"; };
+		4CBC44A71B988FF400F1EEFE /* MessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageTableViewController.h; path = SPSApp/MessageTableViewController.h; sourceTree = "<group>"; };
+		4CBC44A81B988FF400F1EEFE /* MessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageTableViewController.m; path = SPSApp/MessageTableViewController.m; sourceTree = "<group>"; };
+		4CBC44AA1B98B49A00F1EEFE /* Monaco.dfont */ = {isa = PBXFileReference; lastKnownFileType = file; path = Monaco.dfont; sourceTree = "<group>"; };
+		4CBC44AC1B99243B00F1EEFE /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		4CBC44AE1B99292E00F1EEFE /* BluetoothController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BluetoothController.h; path = SPSApp/BluetoothController.h; sourceTree = "<group>"; };
+		4CBC44AF1B99292E00F1EEFE /* BluetoothController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BluetoothController.m; path = SPSApp/BluetoothController.m; sourceTree = "<group>"; };
+		D206C9901BB5C386001F0A53 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D206C9911BB5C386001F0A53 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		D29CDD041C6D0E2100C727E3 /* libWorldWind.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWorldWind.a; path = "../../../Library/Developer/Xcode/DerivedData/SPSWorkspace-hfrnhnyxuodeffabdglcwajpvohh/Build/Products/Debug-iphoneos/libWorldWind.a"; sourceTree = "<group>"; };
+		D2F2EDD11C4FEA66008A92E2 /* BTDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDiscovery.h; sourceTree = "<group>"; };
+		D2F2EDD21C4FEA66008A92E2 /* BTDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDiscovery.m; sourceTree = "<group>"; };
+		D2F2EDD31C4FEA66008A92E2 /* BTService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTService.h; sourceTree = "<group>"; };
+		D2F2EDD41C4FEA66008A92E2 /* BTService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CBC445C1B973FED00F1EEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29CDD061C6D0E9700C727E3 /* libWorldWind.a in Frameworks */,
+				4CBC44AD1B99243B00F1EEFE /* CoreBluetooth.framework in Frameworks */,
+				4CBC44971B9740CF00F1EEFE /* OpenGLES.framework in Frameworks */,
+				4CBC44951B9740C500F1EEFE /* QuartzCore.framework in Frameworks */,
+				4CBC44931B9740BD00F1EEFE /* CoreLocation.framework in Frameworks */,
+				4CBC44911B9740AE00F1EEFE /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBC447B1B973FED00F1EEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CBC44561B973FED00F1EEFE = {
+			isa = PBXGroup;
+			children = (
+				D29CDD041C6D0E2100C727E3 /* libWorldWind.a */,
+				4CBC44AC1B99243B00F1EEFE /* CoreBluetooth.framework */,
+				4CBC44961B9740CF00F1EEFE /* OpenGLES.framework */,
+				4CBC44941B9740C500F1EEFE /* QuartzCore.framework */,
+				4CBC44921B9740BD00F1EEFE /* CoreLocation.framework */,
+				4CBC44901B9740AE00F1EEFE /* SystemConfiguration.framework */,
+				4CBC44611B973FED00F1EEFE /* SPSApp */,
+				4CBC44811B973FED00F1EEFE /* SPSAppTests */,
+				4CBC44601B973FED00F1EEFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CBC44601B973FED00F1EEFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC445F1B973FED00F1EEFE /* SPSApp.app */,
+				4CBC447E1B973FED00F1EEFE /* SPSAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CBC44611B973FED00F1EEFE /* SPSApp */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC449E1B974B4300F1EEFE /* AppConstants.h */,
+				4CBC44981B974A7300F1EEFE /* Settings.h */,
+				4CBC44991B974A7300F1EEFE /* Settings.m */,
+				4CBC44661B973FED00F1EEFE /* AppDelegate.h */,
+				4CBC44671B973FED00F1EEFE /* AppDelegate.m */,
+				4CBC449D1B974ABE00F1EEFE /* Models */,
+				4CBC449C1B974AB600F1EEFE /* VIews */,
+				4CBC449B1B974A8000F1EEFE /* Controllers */,
+				4CBC44751B973FED00F1EEFE /* Images.xcassets */,
+				4CBC44691B973FED00F1EEFE /* SPSApp.xcdatamodeld */,
+				4CBC44621B973FED00F1EEFE /* Supporting Files */,
+			);
+			path = SPSApp;
+			sourceTree = "<group>";
+		};
+		4CBC44621B973FED00F1EEFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D206C9901BB5C386001F0A53 /* Icon.png */,
+				D206C9911BB5C386001F0A53 /* Icon@2x.png */,
+				4CBC44AA1B98B49A00F1EEFE /* Monaco.dfont */,
+				4CBC44631B973FED00F1EEFE /* Info.plist */,
+				4CBC44641B973FED00F1EEFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CBC44811B973FED00F1EEFE /* SPSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC44841B973FED00F1EEFE /* SPSAppTests.m */,
+				4CBC44821B973FED00F1EEFE /* Supporting Files */,
+			);
+			path = SPSAppTests;
+			sourceTree = "<group>";
+		};
+		4CBC44821B973FED00F1EEFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC44831B973FED00F1EEFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CBC449B1B974A8000F1EEFE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC446F1B973FED00F1EEFE /* DetailViewController.h */,
+				4CBC44701B973FED00F1EEFE /* DetailViewController.m */,
+				4CBC449F1B97780D00F1EEFE /* MasterViewController.h */,
+				4CBC44A01B97780D00F1EEFE /* MasterViewController.m */,
+				4CBC44A71B988FF400F1EEFE /* MessageTableViewController.h */,
+				4CBC44A81B988FF400F1EEFE /* MessageTableViewController.m */,
+				4CBC44AE1B99292E00F1EEFE /* BluetoothController.h */,
+				4CBC44AF1B99292E00F1EEFE /* BluetoothController.m */,
+				4C696BBC1C692F55008CD317 /* BaterryStatusViewController.h */,
+				4C696BBD1C692F55008CD317 /* BaterryStatusViewController.m */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4CBC449C1B974AB600F1EEFE /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC44721B973FED00F1EEFE /* Main.storyboard */,
+				4CBC44771B973FED00F1EEFE /* LaunchScreen.xib */,
+				4C696BBE1C692F55008CD317 /* BaterryStatusViewController.xib */,
+			);
+			name = VIews;
+			sourceTree = "<group>";
+		};
+		4CBC449D1B974ABE00F1EEFE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D2F2EDD11C4FEA66008A92E2 /* BTDiscovery.h */,
+				D2F2EDD21C4FEA66008A92E2 /* BTDiscovery.m */,
+				D2F2EDD31C4FEA66008A92E2 /* BTService.h */,
+				D2F2EDD41C4FEA66008A92E2 /* BTService.m */,
+				4CBC44A21B97822600F1EEFE /* CustomMessages.plist */,
+				4C52AF761C5301AB00AE5367 /* DataReceivedPacket.h */,
+				4C52AF771C5301AB00AE5367 /* DataReceivedPacket.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CBC445E1B973FED00F1EEFE /* SPSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBC44881B973FED00F1EEFE /* Build configuration list for PBXNativeTarget "SPSApp" */;
+			buildPhases = (
+				4CBC445B1B973FED00F1EEFE /* Sources */,
+				4CBC445C1B973FED00F1EEFE /* Frameworks */,
+				4CBC445D1B973FED00F1EEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPSApp;
+			productName = SPSApp;
+			productReference = 4CBC445F1B973FED00F1EEFE /* SPSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CBC447D1B973FED00F1EEFE /* SPSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBC448B1B973FED00F1EEFE /* Build configuration list for PBXNativeTarget "SPSAppTests" */;
+			buildPhases = (
+				4CBC447A1B973FED00F1EEFE /* Sources */,
+				4CBC447B1B973FED00F1EEFE /* Frameworks */,
+				4CBC447C1B973FED00F1EEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CBC44801B973FED00F1EEFE /* PBXTargetDependency */,
+			);
+			name = SPSAppTests;
+			productName = SPSAppTests;
+			productReference = 4CBC447E1B973FED00F1EEFE /* SPSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CBC44571B973FED00F1EEFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = FAC;
+				TargetAttributes = {
+					4CBC445E1B973FED00F1EEFE = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 6AZVN24LN2;
+					};
+					4CBC447D1B973FED00F1EEFE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4CBC445E1B973FED00F1EEFE;
+					};
+				};
+			};
+			buildConfigurationList = 4CBC445A1B973FED00F1EEFE /* Build configuration list for PBXProject "SPSApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CBC44561B973FED00F1EEFE;
+			productRefGroup = 4CBC44601B973FED00F1EEFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CBC445E1B973FED00F1EEFE /* SPSApp */,
+				4CBC447D1B973FED00F1EEFE /* SPSAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CBC445D1B973FED00F1EEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D206C9921BB5C386001F0A53 /* Icon.png in Resources */,
+				4CBC44741B973FED00F1EEFE /* Main.storyboard in Resources */,
+				D206C9931BB5C386001F0A53 /* Icon@2x.png in Resources */,
+				4CBC44A31B97822600F1EEFE /* CustomMessages.plist in Resources */,
+				4C696BC01C692F55008CD317 /* BaterryStatusViewController.xib in Resources */,
+				4CBC44791B973FED00F1EEFE /* LaunchScreen.xib in Resources */,
+				4CBC44AB1B98B49A00F1EEFE /* Monaco.dfont in Resources */,
+				4CBC44761B973FED00F1EEFE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBC447C1B973FED00F1EEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CBC445B1B973FED00F1EEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C696BBF1C692F55008CD317 /* BaterryStatusViewController.m in Sources */,
+				4CBC44711B973FED00F1EEFE /* DetailViewController.m in Sources */,
+				4CBC449A1B974A7300F1EEFE /* Settings.m in Sources */,
+				4CBC44B01B99292E00F1EEFE /* BluetoothController.m in Sources */,
+				4C52AF781C5301AB00AE5367 /* DataReceivedPacket.m in Sources */,
+				4CBC44A11B97780D00F1EEFE /* MasterViewController.m in Sources */,
+				4CBC44A91B988FF400F1EEFE /* MessageTableViewController.m in Sources */,
+				D2F2EDD61C4FEA66008A92E2 /* BTService.m in Sources */,
+				D2F2EDD51C4FEA66008A92E2 /* BTDiscovery.m in Sources */,
+				4CBC44681B973FED00F1EEFE /* AppDelegate.m in Sources */,
+				4CBC446B1B973FED00F1EEFE /* SPSApp.xcdatamodeld in Sources */,
+				4CBC44651B973FED00F1EEFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBC447A1B973FED00F1EEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBC44851B973FED00F1EEFE /* SPSAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CBC44801B973FED00F1EEFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CBC445E1B973FED00F1EEFE /* SPSApp */;
+			targetProxy = 4CBC447F1B973FED00F1EEFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CBC44721B973FED00F1EEFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBC44731B973FED00F1EEFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CBC44771B973FED00F1EEFE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBC44781B973FED00F1EEFE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CBC44861B973FED00F1EEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4CBC44871B973FED00F1EEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CBC44891B973FED00F1EEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/WWiOS/Documents/SPS\\ Viewer/WorldWindIOS/WorldWind/**",
+				);
+				INFOPLIST_FILE = SPSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/WWiOS/Documents/SPS\\ Viewer/WorldWindIOS/WorldWind/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		4CBC448A1B973FED00F1EEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/WWiOS/Documents/SPS\\ Viewer/WorldWindIOS/WorldWind/**",
+				);
+				INFOPLIST_FILE = SPSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/WWiOS/Documents/SPS\\ Viewer/WorldWindIOS/WorldWind/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		4CBC448C1B973FED00F1EEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SPSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPSApp.app/SPSApp";
+			};
+			name = Debug;
+		};
+		4CBC448D1B973FED00F1EEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SPSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPSApp.app/SPSApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CBC445A1B973FED00F1EEFE /* Build configuration list for PBXProject "SPSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBC44861B973FED00F1EEFE /* Debug */,
+				4CBC44871B973FED00F1EEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBC44881B973FED00F1EEFE /* Build configuration list for PBXNativeTarget "SPSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBC44891B973FED00F1EEFE /* Debug */,
+				4CBC448A1B973FED00F1EEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBC448B1B973FED00F1EEFE /* Build configuration list for PBXNativeTarget "SPSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBC448C1B973FED00F1EEFE /* Debug */,
+				4CBC448D1B973FED00F1EEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4CBC44691B973FED00F1EEFE /* SPSApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4CBC446A1B973FED00F1EEFE /* SPSApp.xcdatamodel */,
+			);
+			currentVersion = 4CBC446A1B973FED00F1EEFE /* SPSApp.xcdatamodel */;
+			path = SPSApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4CBC44571B973FED00F1EEFE /* Project object */;
+}
